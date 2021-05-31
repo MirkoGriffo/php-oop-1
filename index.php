@@ -25,7 +25,7 @@ class Movie
     }
 }
 
-//instanza 1
+//istanza 1
 $fantozzi = new Movie('Fantozzi', 'Comico', 1975);
 
 ?>
@@ -38,7 +38,7 @@ echo '<p> E\' uscito ' . $fantozzi->getEta() . ' anni fa</p>';
 <hr>
 <?php
 
-//instanza 2
+//istanza 2
 $cast_away = new Movie('Cast Away', 'Drammatico', 2001);
 ?>
 <h2><?php echo $cast_away->titolo; ?></h2>
